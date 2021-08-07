@@ -1,0 +1,128 @@
+/* Стили для переноса*/
+/*.repair-brands-wrapper__showed-768px {
+            height: 100px;
+            overflow-y: hidden;
+            padding-top: 80px;
+        
+        }*/
+        body {
+            font-family: "TT Lakes", sans-serif;
+            font-size: 16px;
+            margin: 0;
+            background-color: #F8F8F8;
+        }
+        .title__wrapper {
+            height: 80px;
+            padding: 16px;
+            box-sizing: border-box;
+            display: flex;
+            background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+        }
+        .title__text {
+            font-size: 16px;
+            font-weight: normal;
+            vertical-align: middle;
+            margin: auto 0;
+            text-align: left;
+            color: #7E7E82;
+        }
+        .repair-brands-wrapper {
+            padding: 16px;
+        }
+        .repair-brands-wrapper__slides--technictypes {
+            width: 240px;
+            height: 160px;
+            border-radius: 6px;
+            border: 1px solid #EAEAEA;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+        .repair-brands-wrapper__slides--title-text {
+            margin: 0;
+        }
+        .repair-brands-wrapper__slides--go-technictypes {
+            margin-left: auto;
+        }
+        .repair-brands-wrapper__slides--title {
+            margin-right: auto;
+        }
+        .swiper-container {
+            min-width: 320px;
+            height: 220px;
+        }
+        .swiper-container-horizontal {
+            >.swiper-pagination-bullets {
+                .swiper-pagination-bullet {
+                    width: 12px;
+                    height: 12px;
+                    background-color: #B5B6BC;
+                }
+            }
+        }
+        .repair-brands-wrapper__showed-768px--technictypes {
+            display: none;
+        }
+        .show-more__about--technictypes {
+            display: none;
+        }
+        @media (min-width: 768px) {
+            .repair-brands-wrapper__showed-768px--technictypes {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;
+                justify-content: flex-start;
+                padding: 0 1.5vw;
+                height: 180px;
+                overflow-y: hidden;
+            }
+            .repair-brands-wrapper__slides--technictypes {
+                flex-shrink: 0;
+                margin: 8px calc((100% - 672px)/8);
+                width: 224px;
+                transition-duration: 1s;
+            }
+            .swiper-container {
+                display: none;
+            }
+            .show-more__about--technictypes {
+                display: block;
+                font-weight: 500;
+                font-style: normal;
+                letter-spacing: -0.2px;
+                border: hidden;
+                background-color: #F8F8F8;
+                margin: 1.7em;
+                border: 2px solid #F8F8F8;
+                border-radius: 6px;
+                &:hover {
+                    border: 2px solid #B8FFEC;
+                    border-radius: 6px;
+                    background-color: #FFFFFF;
+                    transition: 1s;
+                }
+            }
+            .show-more__icon {
+                margin-right: 16px;
+            }
+        }
+        @media (min-width: 1120px) {
+            .repair-brands-wrapper__slides--technictypes {
+                flex-shrink: 0;
+                margin: 8px 16px;
+                width: 240px;
+                transition-duration: 1s;
+            }
+            .showed {
+                height: auto;
+                box-sizing: content-box;
+                overflow-y: visible;
+                transition-duration: 500ms;
+                transition-property: all;
+            }
+        }
+        

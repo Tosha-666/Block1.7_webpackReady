@@ -42,7 +42,8 @@ module.exports = {
           'sass-loader', // compiles Sass to CSS, using Node Sass by default
         ],
       },
-
+     
+   
       // Подключаем шрифты из css
       {
         test: /\.(eot|ttf|woff|woff2)$/,

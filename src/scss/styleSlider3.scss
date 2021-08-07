@@ -1,0 +1,172 @@
+/* Стили для переноса*/
+body {
+	font-family: "TT Lakes", sans-serif;
+	font-size: 16px;
+	margin: 0;
+	background-color: #F8F8F8;
+}
+.title__wrapper {
+	height: 80px;
+	padding: 16px;
+	box-sizing: border-box;
+	display: flex;
+	background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+}
+.title__text {
+	font-size: 16px;
+	font-weight: normal;
+	vertical-align: middle;
+	margin: auto 0;
+	text-align: left;
+	color: #7E7E82;
+}
+.prices__wrapper {
+	padding: 16px;
+}
+.prices__slides {
+	width: 260px;
+	height: 200px;
+	border-radius: 6px;
+	border: 1px solid #EAEAEA;
+	position: relative;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.repair-brands-wrapper__slides--title-text {
+	margin: 0;
+}
+.prices__slides--services {
+	display: flex;
+	flex-direction: column;
+}
+.prices__slides--list {
+	font-family: TT Lakes;
+	font-size: 14px;
+	line-height: 16px;
+	color: #7E7E82;
+	margin: 16px 16px 4px 16px;
+}
+.prices__slides--deskription {
+	font-family: TT Lakes;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	color: #1B1C21;
+	margin: 0 16px;
+}
+.prices__slides--order {
+	position: absolute;
+	right: 16px;
+	bottom: 16px;
+}
+.swiper-container {
+	min-width: 320px;
+	height: 265px;
+}
+.swiper-container-horizontal {
+	>.swiper-pagination-bullets {
+		.swiper-pagination-bullet {
+			width: 12px;
+			height: 12px;
+			background-color: #B5B6BC;
+		}
+	}
+}
+.prices__showed-768px {
+	display: none;
+}
+.prices__about {
+	max-width: 430px;
+	margin: 16px 16px 0;
+}
+.prices__about--inner {
+	font-family: TT Lakes;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #1B1C21;
+	margin: 0 0 16px;
+}
+.prices__about--commercial-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+.prices__about--commercial {
+	display: inline;
+	margin: 0;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+	color: #1B1C21;
+}
+a {
+	text-decoration: none;
+}
+.prices__about--line {
+	display: inline;
+	margin-left: 10px;
+	text-decoration: none;
+}
+@media (min-width: 768px) {
+	.prices__showed-768px {
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-between;
+		justify-content: flex-start;
+		overflow-y: hidden;
+	}
+	.swiper-container {
+		display: none;
+	}
+	.prices-table {
+		width: 100%;
+		margin: 24px;
+		border-radius: 6px;
+		border-collapse: collapse;
+	}
+	.table-header {
+		height: 64px;
+		font-family: TT Lakes;
+		font-size: 14px;
+		line-height: 16px;
+		color: #7E7E82;
+	}
+	.table__content--row {
+		background-color: #FFFFFF;
+		height: 64px;
+		padding: 0 24px;
+		border-bottom: 1px solid #EAEAEA;
+	}
+	tr {
+		td {
+			&:nth-child(1) {
+				padding-left: 24px;
+				width: 50%;
+			}
+			&:nth-child(2) {
+				width: 20%;
+			}
+			&:nth-child(3) {
+				width: 15%;
+			}
+			&:nth-child(4) {
+				width: 15%;
+				text-align: right;
+				padding-right: 24px;
+			}
+		}
+	}
+	.prices__about {
+		max-width: 430px;
+		margin: 0 24px 16px 24px;
+		margin-top: 0;
+	}
+	.prices__about--inner {
+		margin: 0;
+	}
+	.prices__about--commercial-wrapper {
+		margin-top: 24px;
+	}
+}
