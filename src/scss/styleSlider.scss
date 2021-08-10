@@ -37,10 +37,15 @@
             box-sizing: border-box;
             background-color: #fff;
         }
-        .swiper-container {
+        .repair-brands__first-slider{
+            >.swiper-container {
             min-width: 320px;
             height: 154px;
         }
+    }
+        
+    
+        
         .swiper-container-horizontal {
             >.swiper-pagination-bullets {
                 .swiper-pagination-bullet {

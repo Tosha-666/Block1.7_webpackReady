@@ -13,7 +13,7 @@
 .modal__content {
 	height: 100vh;
 }
-.modal__close-btn {
+/*.modal__close-btn {
 	background: url('../img/close.svg'), no-repeat;
 	padding: 0;
 	border: none;
@@ -23,8 +23,9 @@
 	width: 40px;
 	height: 40px;
 	transition-property: all;
-	transition-duration: 1s;
-}
+	transition-duration: 100ms;
+}*/
+
 .modal__title {
 	font-family: 'TT Lakes';
 	font-size: 24px;
@@ -106,7 +107,7 @@ form {
 	.modal__close-btn {
 		transform: translateX(-110px) translateY(-5px);
 		transition-property: all;
-		transition-duration: 1s;
+		transition-duration: 100ms;
 	}
 	.modal__title {
 		margin-top: -45px;

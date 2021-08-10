@@ -50,11 +50,15 @@
         }
         .repair-brands-wrapper__slides--title {
             margin-right: auto;
+
+        }.repair-brands__second-slider{
+            >.swiper-container {
+                min-width: 320px;
+                height: 220px;
+            }
         }
-        .swiper-container {
-            min-width: 320px;
-            height: 220px;
-        }
+    
+        
         .swiper-container-horizontal {
             >.swiper-pagination-bullets {
                 .swiper-pagination-bullet {

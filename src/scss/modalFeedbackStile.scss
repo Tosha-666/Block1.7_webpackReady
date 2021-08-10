@@ -24,7 +24,13 @@
 	width: 40px;
 	height: 40px;
 	transition-property: all;
-	transition-duration: 1s;
+	/*transition-duration: 100ms;*/
+}
+.modal__close-btn {
+	&:hover {
+		filter: drop-shadow( 1px 1px 1px black );
+        opacity: 0.9;
+	}
 }
 .modal__title {
 	font-family: 'TT Lakes';
@@ -111,7 +117,7 @@ form {
 	.modal__close-btn {
 		transform: translateX(-110px) translateY(-5px);
 		transition-property: all;
-		transition-duration: 1s;
+		transition-duration: 100ms;
 	}
 	.modal__title {
 		margin-top: -45px;
