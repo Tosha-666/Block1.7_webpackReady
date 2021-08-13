@@ -80,11 +80,11 @@
                 justify-content: space-between;
                 align-items: flex-start;
             }
-            .show-more__logo {
+            /*.show-more__logo {
                 margin-right: 25px;
                 margin-left: 24px;
                 align-self: start;
-            }
+            }*/
         }
         @media (min-width: 768px) {
             .repair-brands-wrapper__showed-768px {
@@ -92,7 +92,6 @@
                 flex-wrap: wrap;
                 align-content: space-between;
                 justify-content: flex-start;
-                padding: 0 1.5vw;
                 height: 180px;
                 overflow-y: hidden;
             }
@@ -115,6 +114,7 @@
                 margin: 1.7em;
                 border: 2px solid #F8F8F8;
                 border-radius: 6px;
+                padding: 6px;
                 &:hover {
                     border: 2px solid #B8FFEC;
                     border-radius: 6px;

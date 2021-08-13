@@ -20,8 +20,7 @@
         box-sizing: border-box;
         width: 320px;
         overflow-x: visible;
-        position: absolute;
-        left: 0;
+        position: absolute;        
         top: 0;
         visibility: hidden;
         z-index: 10;
@@ -87,7 +86,8 @@
     .menu-footer__languages--button {
         border: none;
         outline: none;
-        background-color: #FFFFFF;
+        background-color: #F8F8F8;
+        cursor: pointer;
     }
     .menu-footer__languages {
         padding-bottom: 2.28em;

@@ -1,18 +1,18 @@
 const repairBrands = document.querySelector('.repair-brands-wrapper__showed-768px');
-
-
+const showMoreIcon = document.querySelector('.show-more__icon')
+console.log(showMoreIcon)
 const showMoreButton = document.querySelector('.show-more__aboutBrands');
 
 //const pageWidth = document.documentElement.scrollWidth;
 //console.log(pageWidth);
 
 
+
 showMoreButton.addEventListener('click', () => {
-      repairBrands.classList.toggle('showed');
+    repairBrands.classList.toggle('showed');
+    showMoreIcon.classList.toggle('open__icon');
   }
  );
-
-console.log(repairBrands);
 
 
 const repairBrandsTechnicTypes = document.querySelector('.repair-brands-wrapper__showed-768px--technictypes');
@@ -29,4 +29,3 @@ showMoreButtonTechnicTypes.addEventListener('click', () => {
   }
  );
 
-console.log(repairBrands);
