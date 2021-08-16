@@ -4,7 +4,7 @@ const commonContainerBlurCall = document.querySelector('.common-container ');
 const commonContainerBlurFeedback = document.querySelector('.common-container ');
 const modalCall = document.querySelector('.modal__call');
 const modalFeedback = document.querySelector('.modal__feedback');
-
+const mainMenu = document.querySelector('.menu-list');
 /*
 Последний вариант
 const btnMenu = document.querySelector('.btn');
@@ -65,6 +65,7 @@ const closeModalFunc = function (evt) {
     modalCall.classList.remove('active__modal');
     modalFeedback.classList.remove('active__modal');
     commonContainerBlurFeedback.classList.remove('blur')
+    mainMenu.style.display = "block";
      
 
   }

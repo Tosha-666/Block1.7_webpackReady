@@ -170,3 +170,12 @@ a {
 		margin-top: 24px;
 	}
 }
+.showed {
+	background-color: red;
+	height: auto;
+	box-sizing: content-box;
+	opacity: 1!important;
+	transition-property: opacity;
+	transition-delay: 100ms;
+	transition-duration: 1s;
+}
