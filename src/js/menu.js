@@ -17,7 +17,7 @@ openmenu.addEventListener('click', (e) => {
  const closeMenuFunction = function () {
   menu.classList.remove('active-menu');
   commonContainerBlurFeedback.classList.remove('blur')
-   
+  e.stopPropagation();
 
 }
  function closeMenu(evt) {

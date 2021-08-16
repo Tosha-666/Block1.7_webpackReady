@@ -1,8 +1,6 @@
 const feedbackButton = document.querySelectorAll('.modal__feedback--button');
 const modalFeedback = document.querySelector('.modal__feedback');
 const commonContainerBlurFeedback = document.querySelector('.common-container ');
-const mainMenu = document.querySelector('.menu-list')
-
 
 for (let i = 0; i < feedbackButton.length; i++){
   feedbackButton[i].addEventListener('click', (e) => {
@@ -14,7 +12,8 @@ for (let i = 0; i < feedbackButton.length; i++){
     else {
       mainMenu.style.display='none';
       modalFeedback.classList.add('active__modal');
-      commonContainerBlurFeedback.classList.add('blur')
+      commonContainerBlurFeedback.classList.add('blur');
+      mainMenu.style.display = "none";
       e.stopPropagation();
     }
       }

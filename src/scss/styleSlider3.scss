@@ -170,3 +170,9 @@ a {
 		margin-top: 24px;
 	}
 }
+.showed {
+	display: flex !important;
+	animation-name: showCards;
+	animation-delay: 500ms;
+	animation-duration: 1s;
+}
