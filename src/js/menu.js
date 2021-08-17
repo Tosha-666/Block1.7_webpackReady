@@ -14,7 +14,7 @@ openmenu.addEventListener('click', (e) => {
       }
  );
 
- const closeMenuFunction = function () {
+ const closeMenuFunction = function (e) {
   menu.classList.remove('active-menu');
   commonContainerBlurFeedback.classList.remove('blur')
   e.stopPropagation();
@@ -26,7 +26,7 @@ openmenu.addEventListener('click', (e) => {
       if (evt.target == menu || menu.contains(evt.target) && evt.target !== closeMenuButton) {
        return
       }
-    closeMenuFunction();
+    closeMenuFunction(evt);
       
   }
 }

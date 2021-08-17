@@ -1,12 +1,4 @@
-/*.repair-brands-wrapper__showed-768px{
-            margin-top: 1px;
-        }*/
-        body {
-            font-family: "TT Lakes", sans-serif;
-            font-size: 16px;
-            margin: 0;
-            background-color: #F8F8F8;
-        }
+
         .title__wrapper {
             height: 80px;
             padding: 16px;
@@ -108,7 +100,7 @@
                 background-color: #fff;
                 flex-shrink: 0;
                 margin: 8px 0 8px 16px;
-                width: 224px;
+               /* width: 224px;*/
                    }
                 &>.repair-brands-wrapper__slides:nth-child(n+7) {
                     display: none;
@@ -139,13 +131,12 @@
                 margin-right: 16px;
             }
         }
-        @media (min-width: 950px) {
+        @media (min-width: 1020px) {
             .repair-brands-wrapper__showed-768px {
                 display: flex;
                 flex-wrap: wrap;
                 align-content: space-between;
                 justify-content: flex-start;
-                height: 180px;
                 overflow-y: hidden;
                 &>.repair-brands-wrapper__slides:nth-child(-n+8) {
                 width: 240px;
@@ -160,19 +151,14 @@
                 background-color: #fff;
                 flex-shrink: 0;
                 margin: 8px 0 8px 16px;
-                width: 224px;
-                opacity: 1;
-                transition-property: opacity;
-                transition-delay: 100ms;
-                transition-duration: 1s;
-                   }
+                }
                 &>.repair-brands-wrapper__slides:nth-child(n+9) {
                     display: none;
             }
             }
             
         }
-        @media (min-width: 1123px) {
+        @media (min-width: 1120px) {
             .menu__icon {
                 align-self: center;
                 margin-left: 8px;
@@ -185,13 +171,13 @@
             }
             
         }
-        @media (min-width: 1200px) {
+        @media (min-width: 1280px) {
             .repair-brands-wrapper__showed-768px {
                 display: flex;
                 flex-wrap: wrap;
                 align-content: space-between;
                 justify-content: flex-start;
-                height: 180px;
+                //height: 180px;
                 overflow-y: hidden;
                 &>.repair-brands-wrapper__slides:nth-child(-n+10) {
                 width: 240px;
@@ -206,19 +192,70 @@
                 background-color: #fff;
                 flex-shrink: 0;
                 margin: 8px 0 8px 16px;
-                width: 224px;
-                opacity: 1;
-               /* transition-property: opacity;
-                transition-delay: 100ms;
-                transition-duration: 1s;*/
-                   }
+                }
                 &>.repair-brands-wrapper__slides:nth-child(n+11) {
                 display: none;
             }
             }
             
         }
-
+        @media (min-width: 1440px) {
+            .repair-brands-wrapper__showed-768px {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;
+                justify-content: flex-start;
+                //height: 180px;
+                overflow-y: hidden;
+                &>.repair-brands-wrapper__slides:nth-child(-n+8) {
+                width: 240px;
+                height: 72px;
+                border-radius: 6px;
+                border: 1px solid #EAEAEA;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 16px;
+                box-sizing: border-box;
+                background-color: #fff;
+                flex-shrink: 0;
+                margin: 8px 0 8px 16px;
+       
+                   }
+                &>.repair-brands-wrapper__slides:nth-child(n+9) {
+                display: none;
+            }
+            }
+        }
+        @media (min-width: 1640px) {
+            .repair-brands-wrapper__showed-768px {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;
+                justify-content: flex-start;
+                //height: 180px;
+                overflow-y: hidden;
+                &>.repair-brands-wrapper__slides:nth-child(-n+10) {
+                width: 240px;
+                height: 72px;
+                border-radius: 6px;
+                border: 1px solid #EAEAEA;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 16px;
+                box-sizing: border-box;
+                background-color: #fff;
+                flex-shrink: 0;
+                margin: 8px 0 8px 16px;
+        
+                   }
+                &>.repair-brands-wrapper__slides:nth-child(n+11) {
+                display: none;
+            }
+            }
+        }
+        
         @media (min-width: 1682px) {
             .repair-brands-wrapper__showed-768px {
                 height: auto;
@@ -226,7 +263,7 @@
                 padding-top: 0;
             }
         }
-        @media (min-width: 1800px) {
+        @media (min-width: 1900px) {
             .repair-brands-wrapper__showed-768px {
                 display: flex;
                 flex-wrap: wrap;
@@ -247,11 +284,7 @@
                 background-color: #fff;
                 flex-shrink: 0;
                 margin: 8px 0 8px 16px;
-                width: 224px;
-                opacity: 1;
-                transition-property: opacity;
-                transition-delay: 100ms;
-                transition-duration: 1s;
+                
                    }
                 }
                 .show-more__aboutBrands {
@@ -259,21 +292,15 @@
                     
                 }
         }
-        /*.showed {
-            background-color: red;
-            height: auto;
-            box-sizing: content-box;
-            opacity: 1;
-            transition-property: opacity;
-            transition-delay: 100ms;
-            transition-duration: 1s;
-        }*/
+     
         @keyframes showCards {
             from{
+                opacity: 0;
                 margin-left: 1000px;
 
             }
             to{
+                opacity: 1;
                 margin-left: 16px;
             }
         }

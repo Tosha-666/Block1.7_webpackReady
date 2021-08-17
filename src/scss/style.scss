@@ -184,6 +184,9 @@ a {
 .blur {
 	filter: blur(30px);
 	opacity: 0.5;
+	overflow: hidden;
+    position: fixed;
+
 }
 @media (min-width: 576px) {
 	.menu__icon--disabled {
@@ -310,4 +313,9 @@ a {
 	.common-container {
 		margin-left: 360px;
 	}
+}
+.fit__content{
+	height: fit-content;
+	max-height: fit-content;
+	
 }
