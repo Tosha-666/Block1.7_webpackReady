@@ -49,6 +49,8 @@ const openAll = () => {
  }
 */
 }
+openAll()
+
 window.addEventListener('resize', openAll);
 
 showMoreButton.addEventListener('click', (e) => {
