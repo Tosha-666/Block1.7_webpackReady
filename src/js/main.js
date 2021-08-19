@@ -2,15 +2,15 @@ const swiper = new Swiper(".swiper-container", {
   // Optional parameters
   direction: 'horizontal',
   loop: false,
-  slidesPerView: 1.3,
+  slidesPerView: 2,
   spaceBetween: 16,
-  watchOverflow: true,
+  watchOverflow: false,
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
   },
-  
+  /*
   breakpoints: {
     // when window width is >= 320px
     320: {
@@ -36,7 +36,7 @@ const swiper = new Swiper(".swiper-container", {
       spaceBetween: 32
       
     }
-  }
+  }*/
 });
 
 
