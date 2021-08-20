@@ -3,9 +3,6 @@ const modalCall = document.querySelector('.modal__call');
 const commonContainerBlurCall = document.querySelector('.common-container ');
 const mainMenu = document.querySelector('.menu-list');
 
-
-
-
 for (let i = 0; i < callButton.length; i++){
   callButton[i].addEventListener('click', (e) => {
     if (document.documentElement.clientWidth >= 640) {

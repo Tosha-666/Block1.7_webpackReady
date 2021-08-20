@@ -18,7 +18,6 @@ for (let i = 0; i < feedbackButton.length; i++){
       e.stopPropagation();
     }
       }
-    
  );
 }
 

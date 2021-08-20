@@ -3,9 +3,6 @@ const menu = document.querySelector('.menu-list ');
 const commoncontainer = document.querySelector('.common-container ');
 const commonContainerBlurFeedback = document.querySelector('.common-container ');
 const closeMenuButton = document.querySelector('.menu-header__close');
-//const pageWidth = document.documentElement.scrollWidth;
-//console.log(pageWidth);
-
 
 openmenu.addEventListener('click', (e) => {
     menu.classList.add('active-menu');
@@ -18,7 +15,6 @@ openmenu.addEventListener('click', (e) => {
   menu.classList.remove('active-menu');
   commonContainerBlurFeedback.classList.remove('blur')
   e.stopPropagation();
-
 }
  function closeMenu(evt) {
     
@@ -27,7 +23,7 @@ openmenu.addEventListener('click', (e) => {
        return
       }
     closeMenuFunction(evt);
-      
+     
   }
 }
        

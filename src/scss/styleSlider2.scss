@@ -45,8 +45,6 @@
                 height: 220px;
             }
         }
-    
-        
         .swiper-container-horizontal {
             >.swiper-pagination-bullets {
                 .swiper-pagination-bullet {
@@ -71,14 +69,12 @@
                 justify-content: flex-start;
                 height: auto;
                 overflow-y: hidden;
-                &>.repair-brands-wrapper__slides--technictypes:nth-child(-n+3) {
+                &>.repair-brands-wrapper__slides--technictypes {
                 flex-shrink: 0;
+                display: none;
                 margin: 8px 0 8px 16px;
                 width: 240px;
                 transition-duration: 1s;
-            }
-            &>.repair-brands-wrapper__slides--technictypes:nth-child(n+4) {
-                display: none;
             }
         }
             .swiper-container {
@@ -106,21 +102,6 @@
                 margin-right: 16px;
             }
         }
-        @media (min-width: 1020px) {
-                   .repair-brands-wrapper__showed-768px--technictypes {
-                  &>.repair-brands-wrapper__slides--technictypes:nth-child(-n+4) {
-                    display: flex;
-                    flex-shrink: 0;
-                    margin: 8px 0 8px 16px;
-                    width: 240px;
-                    transition-duration: 1s;
-                }
-                &>.repair-brands-wrapper__slides--technictypes:nth-child(n+5) {
-                    display: none;
-                }
-            }
-        }
-
         @media (min-width: 1120px) {
             .repair-brands-wrapper__slides--technictypes {
                 flex-shrink: 0;
@@ -129,68 +110,4 @@
                 transition-duration: 1s;
             }
         }
-            @media (min-width: 1280px) {
-                .repair-brands-wrapper__showed-768px--technictypes {
-                    &>.repair-brands-wrapper__slides--technictypes:nth-child(-n+5) {
-                      display: flex;
-                      flex-shrink: 0;
-                      margin: 8px 0 8px 16px;
-                      width: 240px;
-                      transition-duration: 1s;
-                  }
-                  &>.repair-brands-wrapper__slides--technictypes:nth-child(n+6) {
-                      display: none;
-                  }
-              }
-            }
-        
-            @media (min-width: 1440px) {
-                .repair-brands-wrapper__showed-768px--technictypes {
-                    &>.repair-brands-wrapper__slides--technictypes:nth-child(-n+4) {
-                      display: flex;
-                      flex-shrink: 0;
-                      margin: 8px 0 8px 16px;
-                      width: 240px;
-                      transition-duration: 1s;
-                  }
-                  &>.repair-brands-wrapper__slides--technictypes:nth-child(n+5) {
-                      display: none;
-            }
-                }
-            }
-            @media (min-width: 1640px) {
-                .repair-brands-wrapper__showed-768px--technictypes {
-                    &>.repair-brands-wrapper__slides--technictypes:nth-child(-n+5) {
-                      display: flex;
-                      flex-shrink: 0;
-                      margin: 8px 0 8px 16px;
-                      width: 240px;
-                      transition-duration: 1s;
-                  }
-                  &>.repair-brands-wrapper__slides--technictypes:nth-child(n+6) {
-                      display: none;
-                  }
-              }
-            }
-            @media (min-width: 1900px) {
-                .repair-brands-wrapper__showed-768px--technictypes {
-                    &>.repair-brands-wrapper__slides--technictypes:nth-child(-n+6) {
-                      display: flex;
-                      flex-shrink: 0;
-                      margin: 8px 0 8px 16px;
-                      width: 240px;
-                      transition-duration: 1s;
-                  }
-                  &>.repair-brands-wrapper__slides--technictypes:nth-child(n+7) {
-                      display: none;
-                  }
-              }
-            }
-            /*.showed {
-                height: auto;
-                box-sizing: content-box;
-                overflow-y: visible;
-                transition-duration: 500ms;
-                transition-property: all;
-            }*/
-        
+      

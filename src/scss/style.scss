@@ -11,11 +11,6 @@
 
 $bgColor: #24292e;
 $text: #fff;
-
-/*.show-more__logo{
-    width: 320px;
-    height: auto;
-}*/
 body {
 	font-family: "TT Lakes", sans-serif;
 	font-size: 14px;
@@ -89,9 +84,13 @@ nav {
 	display: flex;
 	flex-wrap: nowrap;
 	overflow-x: auto;
-	&::-webkit-scrollbar {
-		width: 0;
-	  }
+	&::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	}
+	&::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 5px grey; 
+		border-radius: 10px;
+	}
 }
 .nav__promo--border {
 	text-decoration: none;
@@ -180,13 +179,11 @@ a {
 	transition-property: transform;
 	transition-duration: 200ms;
 }
-	
 .blur {
 	filter: blur(30px);
 	opacity: 0.5;
 	overflow: hidden;
     position: fixed;
-
 }
 @media (min-width: 576px) {
 	.menu__icon--disabled {
@@ -318,4 +315,14 @@ a {
 	height: fit-content;
 	max-height: fit-content;
 	
+}
+@media (handheld) {
+	nav {
+		display: flex;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		&::-webkit-scrollbar {
+			width: 0;
+		  }
+}
 }
