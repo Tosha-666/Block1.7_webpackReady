@@ -2,7 +2,7 @@ const swiper = new Swiper(".swiper-container", {
   // Optional parameters
   direction: 'horizontal',
   loop: false,
-  slidesPerView: 2,
+  slidesPerView: 'auto',
   spaceBetween: 16,
   watchOverflow: false,
   // If we need pagination

@@ -71,15 +71,14 @@
                 justify-content: flex-start;
                 height: auto;
                 overflow-y: hidden;
-                &>.repair-brands-wrapper__slides--technictypes:nth-child(-n+3) {
+                &>.repair-brands-wrapper__slides--technictypes {
                 flex-shrink: 0;
+                display: none;
                 margin: 8px 0 8px 16px;
                 width: 240px;
                 transition-duration: 1s;
             }
-            &>.repair-brands-wrapper__slides--technictypes:nth-child(n+4) {
-                display: none;
-            }
+           
         }
             .swiper-container {
                 display: none;
@@ -106,7 +105,7 @@
                 margin-right: 16px;
             }
         }
-        @media (min-width: 1020px) {
+      /*  @media (min-width: 1020px) {
                    .repair-brands-wrapper__showed-768px--technictypes {
                   &>.repair-brands-wrapper__slides--technictypes:nth-child(-n+4) {
                     display: flex;
@@ -119,7 +118,7 @@
                     display: none;
                 }
             }
-        }
+        }*/
 
         @media (min-width: 1120px) {
             .repair-brands-wrapper__slides--technictypes {
@@ -129,7 +128,7 @@
                 transition-duration: 1s;
             }
         }
-            @media (min-width: 1280px) {
+            /*@media (min-width: 1280px) {
                 .repair-brands-wrapper__showed-768px--technictypes {
                     &>.repair-brands-wrapper__slides--technictypes:nth-child(-n+5) {
                       display: flex;
@@ -185,7 +184,7 @@
                       display: none;
                   }
               }
-            }
+            }*/
             /*.showed {
                 height: auto;
                 box-sizing: content-box;
